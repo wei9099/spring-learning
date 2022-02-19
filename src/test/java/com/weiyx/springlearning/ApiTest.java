@@ -19,6 +19,6 @@ public class ApiTest {
 
         UserService userService1 = (UserService)beanFactory.getBean("userService", "zhangsan");
         userService1.queryUserInfo();
-
+        System.out.println("aaaa");
     }
 }
